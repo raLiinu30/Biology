@@ -35,8 +35,8 @@ data = {
     '23': '\nYou have an extra X chromosome. However, you may notice there is not much different about you from the outside. The reason is females with an extra X chromosome cannot be distinguished from XX females except by karyotype. '
     }
 if question == 'XX':
-    print('You are biologically female.')
-    question2 = input('Do you have an extra copy of any chromosome? ')
+    print('\nYou are biologically female.')
+    question2 = input('\nDo you have an extra copy of any chromosome? ')
     if question2 == 'Yes' or question2 == 'yes':
         question3 = input('On which chromosome do you have an extra copy? ')
         print(data[question3])
@@ -69,8 +69,8 @@ data1 =  {
     '23': '\nIf you have an extra X chromosome, you have Klinefelter’s syndrome. This disorder is characterized by abnormally small tests, sterility, female body characteristics, and subnormal intelligence. If you have an extra Y chromosome, you have XYY syndrome. Individuals with this disorder tend to be taller than average.'
     }
 if question == 'XY' or question == 'YX':
-    print('You are biologically male.')
-    question2 = input('Do you have an extra copy of any chromosome? ')
+    print('\nYou are biologically male.')
+    question2 = input('\nDo you have an extra copy of any chromosome? ')
     if question2 == 'Yes' or question2 == 'yes':
         question3 = input('On which chromosome do you have an extra copy? ')
         print(data1[question3])
