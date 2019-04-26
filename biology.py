@@ -1,4 +1,10 @@
 #Python code that determines the syndrome based on inputted chromosomal abnormalities
+# Steps:
+# 1. Type in name
+# 2. Type in your sex chromosomes without the extra one (XX or XY; XXY is invalid).
+# 3. Type in either "yes" or "no" for question about an extra copy of chromosomes. (capitalization does not matter).
+# 4. If you have an extra copy of a particulart chromosome, type in the number in which this extra exists.
+# 5. Learn about your disorder!
 
 name = input('Hello, what is your name? ')
 question = input('Hi '+name+', what are your sex chromosomes? ')
@@ -35,7 +41,7 @@ if question == 'XX':
         question3 = input('On which chromosome do you have an extra copy? ')
         print(data[question3])
     if question2 == 'No' or question2 == 'no':
-        print('Congratulations! You have no disorders.')
+        print('\nCongratulations! You have no disorders.')
         
 data1 =  {
     '1': '\nYou have Chromosome 1q21.1 duplication syndrome. This disorder is characterized by a large head size (macrocephaly), mild to moderate developmental delay and learning difficulties, autism or autistic-like behavior, heart problems, seizures, and/or and distinctive facial features.',
@@ -69,5 +75,5 @@ if question == 'XY' or question == 'YX':
         question3 = input('On which chromosome do you have an extra copy? ')
         print(data1[question3])
     if question2 == 'No' or question2 == 'no':
-        print('Congratulations! You have no disorders.')
+        print('\nCongratulations! You have no disorders.')
         
