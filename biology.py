@@ -34,6 +34,8 @@ if question == 'XX':
     if question2 == 'Yes' or question2 == 'yes':
         question3 = input('On which chromosome do you have an extra copy? ')
         print(data[question3])
+    if question2 == 'No' or question2 == 'no':
+        print('Congratulations! You have no disorders.')
         
 data1 =  {
     '1': '\nYou have Chromosome 1q21.1 duplication syndrome. This disorder is characterized by a large head size (macrocephaly), mild to moderate developmental delay and learning difficulties, autism or autistic-like behavior, heart problems, seizures, and/or and distinctive facial features.',
