@@ -68,3 +68,6 @@ if question == 'XY' or question == 'YX':
     if question2 == 'Yes' or question2 == 'yes':
         question3 = input('On which chromosome do you have an extra copy? ')
         print(data1[question3])
+    if question2 == 'No' or question2 == 'no':
+        print('Congratulations! You have no disorders.')
+        
