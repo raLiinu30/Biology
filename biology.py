@@ -26,8 +26,8 @@ data = {
     '20': 'You have Trisomy 20. This disorder is characterized by spinal abnormalities (including spinal stenosis, vertebral fusion, and kyphosis), hypotonia (decreased muscle tone), lifelong constipation, sloped shoulders, and significant learning disabilities despite normal intelligence.'
     '21': 'You have Down sydrome or Trisomy 21. This disorder is characterized by a round face, skin fold at inner corner of eye, flattened nose bridge, small, irregular teeth, short stature, heart defects, susceptibility to respiratory infections, Leukemia, Alzheimer’s disease, and a life span shorter than normal.'
     '22': 'You have Mosaic Trisomy 22. This disorder is characterized by growth and developmental delays, asymmetric body development, and congenital heart diseases.'
-    '23': 'You have an extra X chromosome. However, you may notice there is not much different about you from the outside. The reason is females with an extra X chromosome cannot be distinguished from XX females except by karyotype. ',
-    
+    '23': 'You have an extra X chromosome. However, you may notice there is not much different about you from the outside. The reason is females with an extra X chromosome cannot be distinguished from XX females except by karyotype. '
+    }
 if question == 'XX':
     print('You are biologically female.')
     question2 = input('Do you have an extra copy of any chromosome? ')
@@ -59,7 +59,7 @@ data1 = {
     '21': 'You have Down sydrome or Trisomy 21. This disorder is characterized by a round face, skin fold at inner corner of eye, flattened nose bridge, small, irregular teeth, short stature, heart defects, susceptibility to respiratory infections, Leukemia, Alzheimer’s disease, and a life span shorter than normal.'
     '22': 'You have Mosaic Trisomy 22. This disorder is characterized by growth and developmental delays, asymmetric body development, and congenital heart diseases.'
     '23': 'If you have an extra X chromosome, you have Klinefelter’s syndrome. This disorder is characterized by abnormally small tests, sterility, female body characteristics, and subnormal intelligence. If you have an extra Y chromosome, you have XYY syndrome. Individuals with this disorder tend to be taller than average.'
-
+    }
 if question == 'XY':
     print('You are biologically male.')
     question2 = input('Do you have an extra copy of any chromosome? ')
