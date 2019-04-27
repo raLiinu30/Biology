@@ -10,6 +10,8 @@
 # 5. If you have an extra copy of a particular chromosome, type in the number of the chromosome in which this extra copy exists.
 # 6. Learn about your disorder!
 
+# NOTE: if you type in something wrong, do not worry! Just press "Go" and try again.
+
 name = input('Hello, what is your name? ')
 question = input('Hi '+name+', what are your sex chromosomes? ')
 
