@@ -1,10 +1,14 @@
-#Python code that determines the microduplication syndrome based on inputted chromosomal abnormalities.
-# Steps:
-# 1. Type in name
-# 2. Type in your sex chromosomes without the extra one (XX or XY; XXY is invalid).
-# 3. Type in either "yes" or "no" for question about an extra copy of chromosomes. (capitalization does not matter).
-# 4. If you have an extra copy of a particular chromosome, type in the number of the chromosome in which this extra copy exists.
-# 5. Learn about your disorder!
+# Python code that determines the microduplication syndrome based on inputted chromosomal abnormalities.
+# Written by Rain Liu
+# Class: Biology H
+
+# Instructions:
+# 1. Press "Go" to initiate program.
+# 2. Type in your name.
+# 3. Type in your sex chromosomes without the extra one (XX or XY; XXY is invalid).
+# 4. Type in either "yes" or "no" for the question about an extra copy of chromosomes. (capitalization does not matter).
+# 5. If you have an extra copy of a particular chromosome, type in the number of the chromosome in which this extra copy exists.
+# 6. Learn about your disorder!
 
 name = input('Hello, what is your name? ')
 question = input('Hi '+name+', what are your sex chromosomes? ')
